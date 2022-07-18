@@ -4,7 +4,7 @@ const { interface, bytecode } = require('./compile');
 const INITIAL_STRING = 'Hi there!';
 
 const provider = new HDWalletProvider(
-    'valley doll chunk position area inch slight drink strike still dove donate',
+    '/**enter your wallet recovery phrase here**/',
     'https://rinkeby.infura.io/v3/0f11868ab38f4a14b8632271c017c836'
 ); //paste account mnemonic/recovery phrase here and the rinkeby api link from infura
 
